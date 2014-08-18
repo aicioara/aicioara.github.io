@@ -1,0 +1,26 @@
+html, body, main {
+	font-family: Arial;
+}
+
+.center {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	width: 600px;
+	height: 450px;
+
+	text-align: center;
+
+	margin: auto;
+}
+
+.AC-main h1 {
+	font-size: 5em;
+}
+
+.AC-main h4 {
+	font-size: 2.5em;
+}
