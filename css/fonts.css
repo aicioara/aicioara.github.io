@@ -2,8 +2,3 @@
     font-family: Cardo;
     src: url('/fonts/Cardo/Cardo-Regular.ttf');
 }
-
-@font-face {
-	font-family: New;
-    src: url('/fonts/Josefin_Sans/JosefinSans-Regular.ttf');
-}
