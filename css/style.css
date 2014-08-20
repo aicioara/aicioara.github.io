@@ -4,6 +4,10 @@ html, body, main {
 	font-family: Arial;
 }
 
+a {
+	text-decoration: none;
+}
+
 .center {
 	position: absolute;
 	top: 0;
@@ -12,7 +16,7 @@ html, body, main {
 	bottom: 0;
 
 	width: 600px;
-	height: 450px;
+	height: 530px;
 
 	text-align: center;
 
@@ -26,6 +30,31 @@ html, body, main {
 .AC-main h4 {
 	font-size: 2.5em;
 	font-family: "Cardo", Arial;
+}
+
+.AC-social {
+	margin: 0 auto;
+	max-width: 400px;
+}
+
+.AC-social .item {
+	display: inline;
+}
+
+.AC-social .item img {
+	width: 60px;
+	height: 60px;
+}
+
+.AC-smallprint {
+	margin-top: 50px;
+	color: black;
+	font-size: 10px;
+}
+
+.AC-smallprint a {
+	text-decoration: none;
+	color: inherit;
 }
 
 .fadein {
