@@ -94,3 +94,12 @@ a {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
+
+
+/*TODO: Remove*/
+/**
+ * Did this to improve UX. Images were getting pushed down by the new font
+ */
+.fixedHeightHack {
+	height: 55px;
+}
