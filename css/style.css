@@ -125,6 +125,6 @@ header {
 /**
  * Did this to improve UX. Images were getting pushed down by the new font
  */
-.fixedHeightHack {
+.AC-fixedHeightHack {
 	height: 55px;
 }
