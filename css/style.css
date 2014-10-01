@@ -6,6 +6,7 @@ html, body, main {
 
 a {
 	text-decoration: none;
+	color: inherit;
 }
 
 .center {
@@ -56,6 +57,30 @@ a {
 	text-decoration: none;
 	color: inherit;
 }
+
+header {
+	text-align: right;
+}
+
+.nav {
+	width: 500px;
+	display: inline-block;
+	list-style-type: none;
+
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: "Cardo", serif;
+
+
+	margin-right: 100px;
+	margin-top: 25px;
+}
+
+.nav li {
+	display: inline;
+	padding: 5px 15px;
+}
+
 
 .fadein {
 	opacity: 0;
