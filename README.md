@@ -6,6 +6,6 @@ Personal Website
 File structure
 --------------
 
-- gogole123...213 = Verifying ownership for gogle
+- google123...213 = Verifying ownership for gogle
 - CNAME = DNS record
 
