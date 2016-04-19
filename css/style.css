@@ -71,16 +71,9 @@ header {
 	letter-spacing: 1px;
 	font-family: "Cardo", serif;
 
-
-	margin-right: 100px;
+	padding-left: 0;
 	margin-top: 25px;
 }
-
-.nav li {
-	display: inline;
-	padding: 5px 15px;
-}
-
 
 .fadein {
 	opacity: 0;
