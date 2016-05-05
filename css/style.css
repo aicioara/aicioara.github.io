@@ -17,7 +17,7 @@ a {
 	bottom: 0;
 
 	width: 608px;
-	max-height: 900px;
+	max-height: 700px;
 
 	text-align: center;
 
@@ -50,8 +50,31 @@ a {
 
 
 .AC-main h1 {
-	font-size: 5em;
+	font-size: 5.5em;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.AC-main h1 {
+		font-size: 5em;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.AC-main h1 {
+		font-size: 5em;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.AC-main h1 {
+		font-size: 5em;
+	}
+}
+
+
 
 .AC-main h4 {
 	font-size: 2.5em;
@@ -195,4 +218,23 @@ header {
 	.AC-links a{
 		font-size: inherit;
 	}
+}
+
+
+/**
+ * Templates
+ */
+
+/* Mobiles are first */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
 }
