@@ -16,13 +16,38 @@ a {
 	right: 0;
 	bottom: 0;
 
-	width: 600px;
-	height: 530px;
+	width: 608px;
+	max-height: 900px;
 
 	text-align: center;
 
 	margin: auto;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.center {
+		width: 600px;
+		max-height: 530px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.center {
+		width: 600px;
+		max-height: 530px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.center {
+		width: 600px;
+		max-height: 530px;
+	}
+}
+
 
 .AC-main h1 {
 	font-size: 5em;
@@ -35,7 +60,6 @@ a {
 
 .AC-social {
 	margin: 0 auto;
-	max-width: 400px;
 }
 
 .AC-social .item {
@@ -43,9 +67,34 @@ a {
 }
 
 .AC-social .item img {
-	width: 60px;
-	height: 60px;
+	width: 100px;
+	height: 100px;
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.AC-social .item img {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.AC-social .item img {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.AC-social .item img {
+		width: 60px;
+		height: 60px;
+	}
+}
+
 
 .AC-smallprint {
 	margin-top: 50px;
@@ -120,4 +169,30 @@ header {
  */
 .AC-fixedHeightHack {
 	height: 55px;
+}
+
+
+.AC-links a {
+	font-size: 2em;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.AC-links a{
+		font-size: inherit;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.AC-links a{
+		font-size: inherit;
+	}
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.AC-links a{
+		font-size: inherit;
+	}
 }
