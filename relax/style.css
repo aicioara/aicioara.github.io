@@ -1,0 +1,91 @@
+body, html {
+    font-family: "Arial";
+    position: relative;
+
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    width: 600px;
+
+    max-height: 120px;
+    font-size: 120px;
+
+    text-align: center;
+
+    margin: auto;
+}
+
+.instructions {
+    position: absolute;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    background-color: white;
+    padding: 10px;
+
+    max-width: 320px;
+
+    font-size: 20px;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.credits {
+    position: absolute;
+    cursor: pointer;
+
+    background-color: white;
+    padding: 10px;
+    font-size: 20px;
+
+    bottom: 0;
+    right: 0;
+
+    font-weight: bold;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.breath-in {
+    color: #24AE60;
+}
+
+.breath-in-bg {
+    background-color: #24AE60;
+}
+
+.hold {
+    color: #12A185;
+}
+
+.hold-bg {
+    background-color: #12A185;
+}
+
+.breath-out {
+    color: #5498C7;
+}
+
+.breath-out-bg {
+    background-color: #5498C7;
+}
+
+.active {
+    font-weight: bold;
+}
