@@ -34,9 +34,17 @@
 	<!-- Google Analytics -->
 	<script src="js/analytics.js"> </script>
 
+	<script>
+	function imageNotLoaded(img) {
+		img.style.display = "none";
+		Analytics.sendSocialImageError();
+	}
+	</script>
+
 </head>
 
 <body>
+
 
 <header>
 </header>
@@ -50,22 +58,22 @@
 			<div>
 				<div class="item">
 					<a id="href-t-github" href="http://github.com/aicioara">
-						<img src="/img/social/Github-icon.png" alt="Github">
+						<img src="/img/social/Github-icon.png" alt="Github" onerror="imageNotLoaded(this)">
 					</a>
 				</div>
 				<div class="item">
 					<a id="href-t-linkedin" href="https://www.linkedin.com/in/andreicioara">
-						<img src="/img/social/Linkedin-icon.png" alt="Linkedin">
+						<img src="/img/social/Linkedin-icon.png" alt="Linkedin" onerror="imageNotLoaded(this)">
 					</a>
 				</div>
 				<div class="item">
 					<a id="href-t-quora" href="https://www.quora.com/profile/Andrei-Cioara">
-						<img src="/img/social/Quora-icon.png" alt="Quora">
+						<img src="/img/social/Quora-icon.png" alt="Quora" onerror="imageNotLoaded(this)">
 					</a>
 				</div>
 				<div class="item">
 					<a id="href-t-play" href="https://play.google.com/store/apps/developer?id=Andrei+Cioara">
-						<img src="/img/social/Play-icon.png" alt="Google Play">
+						<img src="/img/social/Play-icon.png" alt="Google Play" onerror="imageNotLoaded(this)">
 					</a>
 				</div>
 			</div>
@@ -73,22 +81,22 @@
 			<div>
 				<div class="item">
 					<a id="href-t-facebook" href="https://www.facebook.com/cioara.andrei">
-						<img src="/img/social/Facebook-icon.png" alt="Facebook">
+						<img src="/img/social/Facebook-icon.png" alt="Facebook" onerror="imageNotLoaded(this)">
 					</a>
 				</div>
 				<div class="item">
 					<a id="href-t-instagram" href="https://instagram.com/aicioara">
-						<img src="/img/social/Instagram-icon.png" alt="Instagram">
+						<img src="/img/social/Instagram-icon.png" alt="Instagram" onerror="imageNotLoaded(this)">
 					</a>
 				</div>
 				<div class="item">
 					<a id="href-t-twitter" href="https://twitter.com/aicioara">
-						<img src="/img/social/Twitter-icon.png" alt="Twitter">
+						<img src="/img/social/Twitter-icon.png" alt="Twitter" onerror="imageNotLoaded(this)">
 					</a>
 				</div>
 				<div class="item">
 					<a id="href-t-medium" href="https://www.andreicioara.com">
-						<img src="/img/social/Medium-icon.png" alt="Blog">
+						<img src="/img/social/Medium-icon.png" alt="Blog" onerror="imageNotLoaded(this)">
 					</a>
 				</div>
 			</div>
@@ -106,7 +114,6 @@
 <footer>
 
 </footer>
-
 
 </body>
 </html>
